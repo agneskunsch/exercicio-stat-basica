@@ -1,15 +1,16 @@
----
-title: "Lista de Exercícios 2 - Aula 3"
-author: "Agnes"
-date: "2026-03-22"
-output: html_document
----
+#código simples qualquer
 
-## **Questão 1**
-*Crie uma conta no GitHub (se ainda não tiver). Configure o Git no seu computador com seu nome e e-mail usando o terminal.*
+códigoqualquer <- sum (2,2)
+códigoqualquer
 
-Minha conta: https://github.com/agneskunsch
+install.packages ("usethis")
+usethis::create_github_token()
+install.packages("gitcreds")
+gitcreds::gitcreds_set()
 
-## **Questão 3**
-*No projeto clonado, crie um arquivo analise.R com qualquer código R simples. Faça o ciclo completo: stage, commit (com uma mensagem descritiva) e push. Verifique no GitHub se o arquivo apareceu.*
+usethis::git_sitrep()
 
+#agora, para o exercício 4, estou adicionando mais linhas de código
+
+códigoqualquer2 <- sum (códigoqualquer, 7)
+códigoqualquer2
